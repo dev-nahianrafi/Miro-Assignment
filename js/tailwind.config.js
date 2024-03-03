@@ -10,7 +10,7 @@ tailwind.config = {
           'inter': ['"Inter", sans-serif'],
         },
         maxWidth: {
-            'container': '1110px',
+            'container': '1140px',
             'navbar': '1380px'
         }
       }
