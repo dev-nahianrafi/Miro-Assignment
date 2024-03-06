@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <!-- navbar start -->
-    <nav class="border-b-[1px] border-[#F0F0F0]">
-        <div class="py-[33px] flex justify-between items-center max-w-navbar mx-auto"> <!--main div-->
-            <div class=" flex gap-x-6 items-center"> <!--1st logo and menu div-->
+    <!-- <nav class="border-b-[1px] border-[#F0F0F0]">
+        <div class="py-[33px] flex justify-between items-center max-w-navbar mx-auto"> 
+            <div class=" flex gap-x-6 items-center"> 
                 <div>
                     <picture>
                         <a href="#">
@@ -22,7 +23,7 @@
                         </a>
                     </picture>
                 </div>
-                <div class=""> <!-- menu div-->
+                <div class=""> 
                     <ul class="flex gap-x-4 items-center capitalize">
                         <li>
                             <a href="#" class="text-base">Product <i class="fa-solid fa-chevron-down pl-[10px] text-[10px]"></i></a>
@@ -42,54 +43,61 @@
                     </ul>
                 </div>
             </div>
-            <div class="flex gap-x-[20px]"> <!--2nd btn and login div-->
-                <div> <!--global and etc div-->
+            <div class="flex gap-x-[20px]"> 
+                <div> 
                     <a href="#" class="text-base"><i class="fa-solid fa-globe text-[24px] mr-[8px]"></i> EN</a>
                     <a href="#" class="font-inter text-base ml-4">Contact Sales</a>
                     <a href="#" class="font-inter text-base ml-6">Login</a>
                 </div>
-                <div> <!--btn div-->
+                <div> 
                     <a href="#" class="py-[17px] px-[22px] border-[1px] border-basecolour bg-basecolour rounded-3xl text-[#fff] ease-linear duration-[0.2s] hover:bg-transparent hover:text-basecolour hover:border-[1px] hover:border-basecolour">Sign up free →</a>
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
     <!-- navbar end hare -->
 
     <!-- banner part strat hare -->
-    <section class="py-[60px]">
+    <section class="py-8 md:py-[60px] px-5 md:px-10 xl:px-0">
         <div class="max-w-container mx-auto">
-            <div class="flex justify-between items-center"> <!-- banner main div -->
-                <div> <!-- items div -->
-                    <h1 class="w-[376px] text-[48px] leading-[56px] font-bold tracking-[-1px] mb-[16px]">Take ideas from better to best</h1>
-                    <p class="text-lg w-[428px] opacity-[72%]">Miro is your team's visual platform to connect, collaborate, and create — together.</p>
-                    <input class="font-inter text-[18px] border-[2px] w-[440px] mt-[32px] py-3 rounded-[32px] pl-[25px] pr-[14px]" type="email" placeholder="Enter your work email">
-        
-                    <div class="mt-[10px]">
-                        <button class="w-[440px] h-[51px] border-[1px] rounded-[32px] text-[18px] leading-[18px] text-[#fff] bg-basecolour ease-linear duration-[0.2s] hover:bg-transparent hover:text-basecolour hover:border-[1px] hover:border-basecolour">Sign up free →</button>
+            <div class="lg:flex gap-x-[60px] items-center xl:items-start">
+                <div class="lg:w-[40%] text-center lg:text-start">
+                    <h1 class="text-primary font-inter text-5xl font-bold leading-[56px] tracking-[-1px] ">
+                        Take ideas from better to best</h1>
+                    <p class=" font-helt text-primary opacity-70 text-lg font-normal leading-6 pt-4 pb-8 ">
+                        Miro is your team's visual platform to connect, collaborate, and create — together.</p>
+                    <div class="flex flex-col gap-y-[10px]">
+                        <input type="text" placeholder="Enter your work email"
+                            class="py-2 pl-6 border border-[#9B99AF] rounded-[32px] font-inter text-[#5F5C80] text-sm sm:text-lg font-normal w-3/4 md:w-3/5 mx-auto lg:mx-0  lg:w-full">
+                        <a href="#"
+                            class=" font-helt bg-secondary text-center py-3 rounded-[32px] text-white font-normaltext-sm sm:text-lg font-normal w-3/4 md:w-3/5 mx-auto lg:mx-0  lg:w-full leading-5 md:leading-7">Sign
+                            up free <i class="fa-solid fa-arrow-right-long ml-2"></i> </a>
                     </div>
-                    <p class="text-sm text-[#050038] opacity-40 mt-[7px]">Collaborate with your team within minutes</p>
-                    <div class="w-[350px] bg-[#F5F5F7] p-[14px] mt-[41px] flex items-center gap-x-[20px]"> <!-- icon and logo div -->
-                        <div> <!-- icon div -->
-                            <i class="fa-solid fa-star text-[#FF9D48] text-[14px]"></i>
-                            <i class="fa-solid fa-star text-[#FF9D48] text-[14px]"></i>
-                            <i class="fa-solid fa-star text-[#FF9D48] text-[14px]"></i>
-                            <i class="fa-solid fa-star text-[#FF9D48] text-[14px]"></i>                  
-                            <i class="fa-solid fa-star-half-stroke text-[#FF9D48] text-[14px]"></i>
-                            <p class="text-[11px] leading-[15px] text-textcolor">Based on 5149+ reviews:</p>
+                    <p class="font-helt text-primary opacity-40 text-sm font-normal leading-5 mt-[7px] mb-10">
+                        Collaborate with your team within minutes</p>
+                    <div
+                        class="bg-[#F5F5F7] rounded-[8px] p-[14px]  sm:flex items-center gap-x-7 max-w-[360px] mx-auto lg:mx-0 ">
+                        <div class="flex flex-col items-center  ">
+                            <ul class="flex items-center gap-x-[6px]">
+                                <li class="text-[#FF9D48]"><i class="fa-solid fa-star"></i></li>
+                                <li class="text-[#FF9D48]"><i class="fa-solid fa-star"></i></li>
+                                <li class="text-[#FF9D48]"><i class="fa-solid fa-star"></i></li>
+                                <li class="text-[#FF9D48]"><i class="fa-solid fa-star"></i></li>
+                                <li class="text-[#FF9D48]"><i class="fa-solid fa-star-half-stroke"></i></li>
+                            </ul>
+                            <span class="font-helt text-primary text-[11px] font-normal leading-[15px]">Based on
+                                5149+ reviews:</span>
                         </div>
-                        <div>
-                            <picture class="flex gap-x-[14px]">
-                                <a href="#"><img src="./images/logo1.png" alt="not found"></a>
-                                <a href="#"><img src="./images/logo2.png" alt="not found"></a>
-                                <a href="#"><img src="./images/logo3.png" alt="not found"></a>
-                            </picture>
+                        <div class="flex items-center justify-center gap-[14px] pt-2 sm:pt-0">
+                            <img src="./images/logo1.png" alt="not found">
+                            <img src="./images/logo2.png" alt="not found">
+                            <img src="./images/logo3.png" alt="not found">
                         </div>
                     </div>
                 </div>
-                <div> <!-- banner div -->
+                <div class="w-full lg:w-[60%] mt-10 lg:mt-0">
                     <picture>
-                        <img src="./images/banner.png" alt="not found">
+                        <img src="./images/banner.png" alt="not found" class="w-full xl:object-cover xl:h-full">
                     </picture>
                 </div>
             </div>
@@ -98,95 +106,241 @@
     <!-- banner part end -->
 
     <!-- trusted part strat -->
-    <section class="py-[60px]">
+    <section class="px-5 md:px-10 xl:px-0">
         <div class="max-w-container mx-auto">
-            <h2 class="text-center font-inter text-lg font-normal opacity-[60%]">Trusted by 45M+ users</h2>
-            <div class="flex justify-between mt-[48px]">
-                <div class="w-[118px] h-[65px]">
-                    <img class="h-[100%] w-[100%] object-cover" src="./images/Walmart_Index_Only.svg.png" alt="not found">                   
+            <div class="py-[30px] lg:py-[60px] ">
+                <p
+                    class="text-center text-primary opacity-60 font-inter text-lg font-normal leading-6 pb-7 lg:pb-12">
+                    Trusted by
+                    45M+ users</p>
+                    <div class="flex flex-wrap lg:flex-nowrap gap-y-3 justify-evenly ">
+                    <div class=" w-40 md:w-48 h-16 md:h-[100px]  flex justify-center items-center">
+                        <img src="./images/b_logo (3).png" alt="not found" class=" ">
+                    </div>
+                    <div class=" w-40 md:w-48 h-16 md:h-[100px]  flex justify-center items-center">
+                        <img src="./images/b_logo (5).png" alt="not found" class=" ">
+                    </div>
+                    <div class=" w-40 md:w-48 h-16 md:h-[100px]  flex justify-center items-center">
+                        <img src="./images/b_logo (4).png" alt="not found" class=" ">
+                    </div>
+                    <div class=" w-40 md:w-48 h-16 md:h-[100px] flex justify-center items-center">
+                        <img src="./images/b_logo (2).png" alt="not found" class="">
+                    </div>
+                    <div class=" w-40 md:w-48   h-16 md:h-[100px] flex justify-center items-center">
+                        <img src="./images/b_logo (1).png" alt="not found" class=" ">
+                    </div>                  
                 </div>
-                <div class="w-[118px] h-[65px]">
-                    <img class="h-[100%] w-[100%] object-cover" src="./images/cisco.svg.png" alt="not found">                  
-                </div>
-                <div class="w-[118px] h-[65px]">
-                    <img class="h-[100%] w-[100%] object-cover" src="./images/Walmart_Index_Only.svg.png" alt="not found">                  
-                </div>
-                <div class="w-[118px] h-[65px]">
-                    <img class="h-[100%] w-[100%] object-cover" src="./images/deloitte.svg.png" alt="not found">                  
-                </div>
-                <div class="w-[118px] h-[65px]">
-                    <img class="h-[100%] w-[100%] object-cover" src="./images/okta.svg.png" alt="not found">                  
-                </div>                               
             </div>
         </div>
     </section>
     <!-- trusted part end -->
 
     <!-- collaborate part strat hare -->
-    <section class="py-[60px]">
-        <div class="max-w-container mx-auto">
-            <div> <!-- main div -->
-                <div class="relative">
-                    <h2 class="text-center mx-auto font-inter text-textcolor text-[48px] leading-[56px] font-bold w-[466px]">Collaborate without constraints</h2>
-                    <img class="absolute top-[-75px] right-[256px]" src="./images/Group.png" alt="not found">
+    <section class=" mb-14 lg:mb-[92px] nt-5 md:mt-10 lg:mt-28 px-5 md:px-10 xl:px-0">
+        <div class="max-w-container mx-auto ">
+            <div class="max-w-[448px] mx-auto relative">
+                <h2
+                    class="text-primary font-inter text-4xl sm:text-5xl font-bold leading-10 sm:leading-[56px] tracking-[-1px]  text-center ">
+                    Collaborate
+                    without constraints</h2>
+                <div class="absolute  top-[-70%] right-[-16%] hidden md:block">
+                    <picture>
+                        <img src="./images/Group.png" alt="not found">
+                    </picture>
                 </div>
-                <div class="mt-3 flex gap-[30px]">
-                    <div class="w-[360px]">
-                        <h3 class="font-inter text-[24px] font-bold text-textcolor pl-[24px] pt-[23px] pb-[29px]">Free forever</h3>
-                        <p class="text-lg opacity-[60%] pl-[24px] pb-[44px] pr-[22px]">Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates. Signing up with your work email lets you bring in your team faster. See our pricing plans for more features.</p>
-                    </div>
-                    <div class="w-[360px]">
-                        <h3 class="font-inter text-[24px] font-bold text-textcolor pl-[24px] pt-[23px] pb-[29px]">Easy integrations</h3>
-                        <p class="text-lg opacity-[60%] pl-[24px] pb-[44px] pr-[22px]">Miro has 100+ powerful integrations with tools you already use like G Suite, Slack, and Jira, so your workflow is seamless. View the full list in our Marketplace.</p>
-                    </div>
-                    <div class="w-[360px]">
-                        <h3 class="font-inter text-[24px] font-bold text-textcolor pl-[24px] pt-[23px] pb-[29px]">Security first</h3>
-                        <p class="text-lg opacity-[60%] pl-[24px] pb-[44px] pr-[22px]">We treat your data like you would — with the utmost care. We follow industry-leading security standards and give you tools to protect intellectual property. Learn more 
-                        at our Trust Center .</p>
-                    </div>
+            </div>
+            <div class="flex flex-wrap  md:flex-nowrap md:gap-x-2 lg:gap-x-5 pt-5 md:pt-9 pb-6 md:pb-10">
+                <div class="pt-6 pb-6 md:pb-11 pl-6 text-center md:text-start ">
+                    <h3 class="text-primary font-inter text-2xl font-bold leading-7 tracking-[-0.5px] pb-7">Free
+                        forever
+                    </h3>
+                    <p class="font-helt text-lg font-normal leading-6">
+                        <span class="text-primary opacity-60">Our free plan gives you unlimited team members, 3
+                            boards, and 300+ expert-made templates.
+                            Signing up with your work email lets you bring in your team faster. See our </span><br>
+                        <span class="text-secondary opacity-100">pricing plans</span> for more features.
+                    </p>
                 </div>
-                <div class="text-center mt-[40px]">
-                    <a href="#" class="py-[14px] px-[29px] border-[1px] border-basecolour bg-basecolour rounded-3xl text-[#fff] ease-linear duration-[0.2s] hover:bg-transparent hover:text-basecolour hover:border-[1px] hover:border-basecolour">Sign up free →</a>
+                <div class="pt-6 pb-6 md:pb-11 pl-6 pr-6 text-center md:text-start">
+                    <h3 class="text-primary font-inter text-2xl font-bold leading-7 tracking-[-0.5px] pb-7">Easy
+                        integrations
+                    </h3>
+                    <p class="font-helt text-lg font-normal leading-6">
+                        <span class=" text-primary opacity-60"> Miro has 100+ powerful integrations with tools you
+                            already use like G Suite, Slack, and
+                            Jira, so your workflow is seamless. View the full list in our</span> <span
+                            class="text-secondary opacity-100">Marketplace .</span>
+                    </p>
                 </div>
+                <div class="pt-6 pb-6 md:pb-11 pl-6 pr-6 text-center md:text-start">
+                    <h3 class="text-primary font-inter text-2xl font-bold leading-7 tracking-[-0.5px] pb-7">Security
+                        first
+                    </h3>
+                    <p class="font-helt text-lg font-normal leading-6">
+                        <span class=" text-primary opacity-60 "> We treat your data like you would — with the utmost
+                            care. We follow industry-leading
+                            security standards and give you tools to protect intellectual property. Learn more
+                            at our</span>
+                        <span class="text-secondary opacity-100">Trust Center .</span>
+                    </p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#"
+                    class="py-3 px-7 bg-secondary inline-block rounded-3xl text-white font-helt text-lg font-normal leading-6 ">Sign
+                    up
+                    free<i class="fa-solid fa-arrow-right-long pl-4"></i></a>
             </div>
         </div>
     </section>
+
     <!-- collaborate part end hare -->
 
     <!-- work part start hare -->
-    <section class="py-[60px]">
+    <section class=" mb-10 md:mb-16 lg:mb-32 px-5 md:px-10 xl:px-0">
         <div class="max-w-container mx-auto">
-            <div class="w-full flex items-center justify-between">
-                <div class="w-[550px]">
-                    <h3 class="tracking-[-1px] font-inter text-textcolor text-[48px] leading-[56px] font-bold w-[441px]">Work together, wherever you work</h3>
-                    <p class="w-[454px] mt-[16px] mb-[41px] opacity-[60%]">In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are.</p>
-                    <a class="border-b-[3px] text-basecolour font-inter text-[18px]" href="#">Learn more →</a>
+            <div class="lg:flex items-center">
+                <div class="lg:w-1/2">
+                    <h2
+                        class="text-primary font-inter text-4xl sm:text-5xl font-bold leading-10 sm:leading-[56px]  tracking-[-1px] text-center lg:text-start mx-auto lg:mx-0 w-4/5">
+                        Work together, wherever you work</h2>
+                    <p
+                        class="font-inter text-primary opacity-60 text-lg font-normal leading-6 text-center lg:text-start mx-auto lg:mx-0 w-4/5 pt-4 pb-10">
+                        In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate,
+                        and co-create in one space no matter where you are.
+                    </p>
+                    <div class="text-center lg:text-start">
+                        <a href="#" class="font-inter text-secondary text-lg font-normal  leading-6 underline">Learn
+                            more<i class="fa-solid fa-arrow-right ml-4"></i></a>
+                    </div>
                 </div>
-                <div class="w-[550px]">
-                    <img src="./images/workitem.png" alt="not found">
+                <div class="lg:w-1/2">
+                    <picture>
+                        <img src="./images/workitem.png" alt="" class="w-full object-cover">
+                    </picture>
                 </div>
             </div>
         </div>
     </section>
     <!-- work part end hare -->
 
-    <section class="pt-[60px]">
+    <!-- connect part strat -->
+    <section class="mb-[53px] px-5 md:px-10 xl:px-0">
         <div class="max-w-container mx-auto">
-            <div class="w-full flex items-center justify-between">
-                
-                <div class="w-[550px] h-[498px]">
-                    <img class="w-full h-full object-cover" src="./images/connectbanner.png" alt="not found">
+            <div class="flex flex-col lg:flex-row items-center gap-x-28 ">
+                <div class="lg:w-1/2 order-1 ">
+                    <picture>
+                        <img src="./images/connectbanner.png" alt="" class="w-full object-cover">
+                    </picture>
                 </div>
-
-                <div class="w-[465px]">
-                    <h3 class="tracking-[-1px] font-inter text-textcolor text-[48px] leading-[56px] font-bold w-[345px]">Connect your tools, close your tabs</h3>
-                    <p class="w-[454px] mt-[28px] mb-[53px] opacity-[60%]">Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love.</p>
-                    <a class="border-b-[3px] text-basecolour font-inter text-[18px]" href="#">Learn more →</a>
+                <div class="lg:w-1/2 lg:order-2">
+                    <h2
+                        class="text-primary font-inter text-4xl sm:text-5xl font-bold leading-10 sm:leading-[56px] tracking-[-1px] text-center lg:text-start mx-auto lg:mx-0  max-w-[345px]">
+                        Connect your tools, close your tabs</h2>
+                    <p
+                        class="font-inter text-primary opacity-60 text-lg font-normal leading-6 text-center lg:text-start  pt-7 pb-10 md:pb-14 lg:pr-9">
+                        Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom,
+                        Miro has 100+ integrations with tools you already use and love.
+                    </p>
+                    <div class="text-center lg:text-start pb-10 lg:pb-0">
+                        <a href="#" class="font-inter text-secondary text-lg font-normal  leading-6 underline">Learn
+                            more<i class="fa-solid fa-arrow-right ml-4"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- connect part end -->
+    
+    <!-- the way work start -->
+    <section class="mb-8 lg:mb-[60px] px-5 md:px-10 xl:px-0">
+        <div class="max-w-container mx-auto">
+            <div class="flex justify-center relative">
+                <picture>
+                    <img src="./images/ways_img.png" alt="">
+                </picture>
+                <div
+                    class="text-center absolute top-20 right-6 sm:top-24 sm:right-4 md:top-36 md:right-8 lg:top-48  lg:right-28">
+                    <h3
+                        class="text-primary  font-inter text-[8px] sm:text-[22px] leading-2 sm:leading-9 font-bold tracking-[-0.5px]">
+                        The Ways We Work</h3>
+                    <p
+                        class=" text-primary font-helt text-[8px] sm:text-sm font-normal leading-3 sm:leading-6 py-1 sm:py-2 max-w-[200px] sm:max-w-[363px]">
+                        How has our relationship with work changed?</p>
+                    <a href="#"
+                        class="bg-secondary px-3  sm:py-[10px] sm:px-6 text-white text-helt text-[6px]  sm:text-sm font-normal leading-5 rounded-full inline-block">View
+                        the report</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- the way work end -->
+
+
+    <!-- built the work start -->
+    <section class=" md:pb-14 lg:pb-[120px] px-5 md:px-10 xl:px-0">
+        <div class="max-w-container mx-auto ">
+            <div class="p-8">
+                <h2
+                    class="text-primary font-inter text-4xl sm:text-5xl font-bold leading-10 sm:leading-[56px] tracking-[-1px] text-center lg:text-start mx-auto lg:mx-0 max-w-[582px] ">
+                    Built for the way you work</h2>
+                <div class="flex flex-wrap justify-center lg:justify-start gap-2 pt-8 pb-[26px]">
+                    <h4
+                        class="capitalize text-primary font-helt font-normal text-sm leading-5 px-5 py-[14px] border border-[#F2F2F2] rounded-3xl transition-all duration-300 hover:bg-[#F1F3FD]  cursor-pointer">
+                        brainstorming</h4>
+                    <h4
+                        class="capitalize text-primary font-helt font-normal text-sm leading-5 px-5 py-[14px] border border-[#F2F2F2] rounded-3xl transition-all duration-300 hover:bg-[#F1F3FD]  cursor-pointer ">
+                        diagramming</h4>
+                    <h4
+                        class="capitalize text-primary font-helt font-normal text-sm leading-5 px-5 py-[14px] border border-[#F2F2F2] rounded-3xl transition-all duration-300 hover:bg-[#F1F3FD]  cursor-pointer ">
+                        meetings & workshops</h4>
+                    <h4
+                        class="capitalize text-primary font-helt font-normal text-sm leading-5 px-5 py-[14px] border border-[#F2F2F2] rounded-3xl transition-all duration-300 hover:bg-[#F1F3FD]  cursor-pointer ">
+                        scrum events</h4>
+                    <h4
+                        class="capitalize text-primary font-helt font-normal text-sm leading-5 px-5 py-[14px] border border-[#F2F2F2] rounded-3xl transition-all duration-300 hover:bg-[#F1F3FD]  cursor-pointer ">
+                        mapping</h4>
+                    <h4
+                        class="capitalize text-primary font-helt font-normal text-sm leading-5 px-5 py-[14px] border border-[#F2F2F2] rounded-3xl transition-all duration-300 hover:bg-[#F1F3FD]  cursor-pointer ">
+                        research & design</h4>
+                    <h4
+                        class="capitalize text-primary font-helt font-normal text-sm leading-5 px-5 py-[14px] border border-[#F2F2F2] rounded-3xl transition-all duration-300 hover:bg-[#F1F3FD]  cursor-pointer ">
+                        strategic planning</h4>
+                </div>
+
+                <div class="lg:flex ">
+                    <div class=" lg:w-[30%] lg:pl-4 lg:pt-8 lg:pr-10">
+                        <h3
+                            class="capitalize text-primary font-helt text-center lg:text-start text-lg font-normal leading-6">
+                            brainstorming
+                        </h3>
+                        <p class="pt-4 md:pt-[26px] pb-5 md:pb-9 text-center lg:text-start">Unleash creative ideas
+                            and build on them
+                            with the help
+                            of sticky
+                            notes,
+                            images, mind
+                            maps, videos, drawing capabilities — the list goes on.</p>
+                        <div class="text-center">
+                            <a href="#" class="font-helt text-secondary text-lg font-normal leading-6 ">Learn
+                                more<i class="fa-solid fa-arrow-right ml-4" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="w-full overflow-hidden lg:w-[70%] mt-5 lg:mt-0 ">
+                        <picture>
+                            <img src="./images/work_banner.png" alt="not found" class="w-full">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- built the work end -->
+        
+   
 
     <script src="./js/tailwind.config.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
 </body>
 </html>
